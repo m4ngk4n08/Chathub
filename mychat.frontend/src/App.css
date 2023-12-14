@@ -1,0 +1,157 @@
+Form Button {
+  width: 100%;
+}
+
+h2 {
+  color: #313131;
+}
+
+h6 {
+  color: greenyellow;
+}
+
+hr.line {
+  border: 1px solid #313131;
+  width: 175px;
+}
+
+.app {
+  margin: auto;
+  padding-top: 40px;
+  width: 950px;
+  text-align: center;
+}
+
+.lobby {
+  width: 400px;
+  margin: auto;
+}
+
+.chat {
+  display: grid;
+}
+
+.leave-room {
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+.user-list {
+  float: left;
+  background-color: #313131;
+  color:white;
+  width: 200px;
+  height: 440px;
+  margin-right: 4px;
+}
+
+.message-container {
+  height: 400px;    
+  background-color: white;
+  overflow: auto;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.user-message {
+  text-align: right;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.message {
+  display: inline-flex;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  font-size: 18px;
+  color:white;
+  border-radius: 20px;
+  margin-top: 3px;
+}
+
+.from-user {
+  font-size: small;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+
+.chatbox {
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure a vertical layout */
+}
+
+.chat-header {
+  background-color: #4267B2;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-messages {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.personalMessage {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px; /* Adjust the font size as needed */
+  width: 50%;
+}
+
+.from-me {
+  float:right;
+  background-color: #0084ff;
+  color: #fff;
+  text-align: right;
+}
+
+.from-other {
+  background-color: red;
+  text-align: left; /* Ensure text alignment for "from-other" messages */
+  float: left;
+}
+
+.chat-input {
+  padding: 10px;
+  display: flex;
+  flex-direction: row; /* Ensure a horizontal layout */
+  align-items: center;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.chat-input button {
+  background-color: #0084ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
